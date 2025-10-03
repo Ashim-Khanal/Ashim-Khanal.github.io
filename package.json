@@ -2,23 +2,20 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ashim-Khanal.github.io",
+  "homepage": ".",
   "dependencies": {
-    "@craco/craco": "^7.1.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "autoprefixer": "^10.4.21",
-    "emailjs-com": "^2.6.4",
-    "postcss": "^7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.1",
-    "react-toastify": "^7.0.4",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "web-vitals": "^1.0.1"
+    "@craco/craco": "7.1.0",
+    "@testing-library/jest-dom": "5.17.0",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.5.2",
+    "emailjs-com": "2.6.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "4.12.0",
+    "react-router-dom": "5.3.4",
+    "react-scripts": "5.0.1",
+    "react-toastify": "7.0.4",
+    "web-vitals": "2.1.4"
   },
   "scripts": {
     "start": "craco start",
@@ -29,24 +26,16 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%","not dead","not op_mini all"],
+    "development": ["last 1 chrome version","last 1 firefox version","last 1 safari version"]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "10.4.20",
+    "gh-pages": "6.3.0",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.14"
   }
 }
