@@ -1,21 +1,25 @@
-# Welcome to My Website
-# Welcome to My Website
+# Ashim Khanal Ph.D. Candidate, All But Dissertation
+## Department of Industrial and Management Systems Engineering, University of South Florida, Tampa, FL, USA
 
 ## About Me
 ![Profile Picture](https://via.placeholder.com/150)
 
-I am a PhD candidate in Operations Research, specializing in multiobjective optimization, network optimization, and applied AI for sustainable systems. My research focuses on innovative solutions for complex problems, such as watershed nutrient management and supply chain optimization, with publications in top-tier journals. As the former president of the INFORMS student chapter (2023-24), I led initiatives like the international Data Science Bootcamp, earning the Summa Cum Laude Best Student Chapter Award at INFORMS 2024. I am passionate about advancing technology, innovation, and management through data-driven insights.
+I am a PhD candidate at the Department of Industrial and Management Systems Engineering at USF, specializing in multiobjective optimization, network optimization, optimization under uncertainty, advanced data analytics, and applied deep reinforcement learning with applications to environment and social sustainability, sustainable supply chain and circular economy, waste management systems, manufacturing and service operations management. 
+My research focused on developing innovative methods, algorithms, and frameworks to solve complex problems, such as watershed nutrient management for harmful alage blooms (Funded by U.S. Environmental Protection Agency and U.S. Army Corps of Engineers), sustainable supply chain and circular economy, fair and equity based crowd shipping and last mile delivery solutions, real time decision making in production, warehousing and logistics management optimization, with publications in top-tier journals. As the former president of the INFORMS student chapter (2023-24), I led initiatives like the international Data Science Bootcamp, earning the Summa Cum Laude Best Student Chapter Award at INFORMS 2024. I am passionate about advancing technology, innovation, and management through data-driven insights.
 
 ### Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin)
+- [LinkedIn](https://www.linkedin.com/in/ashim-khanal-phd/)
 - [Social Media](https://x.com/your-social-media)
-- [Email](htdocs://your.email@example.com)
-- [GitHub](https://github.com/your-username)
+- [Email](ashimkhanal@usf.edu)
+- [GitHub](https://github.com/Ashim-Khanal?tab=repositories)
 
-## Latest News & Updates
-- **July 2025**: Delivered a plenary talk at the Tethys Summit on AquaNutriOpt, a tool for watershed nutrient management.
-- **June 2025**: Published a paper on multiobjective optimization in a leading Operations Research journal.
-- **April 2025**: Applied for the IISE Pritsker Doctoral Dissertation Award to recognize my PhD research.
+## Upcoming, Latest News & Updates
+- **October 2025**: Invited talk session, INFORMS Annual Meeting 2025, Atlanta. Topic: Multi-Objective Optimization for Sustainable Watershed Management
+- **OCTOBER 2025**: Poster Session Competition: Generalized Web Tool Software for Controlling Harmful Algal Blooms, powered with machine learning and multi-objective stochastic optimization. INFORMS Annual Meeting 2025
+- **June 2025**: Published a paper on Maximum Multiplicative Programs [Discrete Optimization 2025](https://www.sciencedirect.com/science/article/abs/pii/S157252862500026X)
+- **July 2025**: Delivered a plenary talk at the Tethys Summit on AquaNutriOpt: Decision Support for Watershed Nutrient Management [Plenary talk](https://tethysgeoscience.org/tethys-summit-2025-schedule/)
+- 
+- **April 2025**: 
 
 ## Navigation
 - [CV](#cv)
