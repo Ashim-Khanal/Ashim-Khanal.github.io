@@ -74,4 +74,6 @@ git push -f origin "$GH_PAGES_BRANCH"
 echo "==> Step 6: Switch back to '$PORTFOLIO_BRANCH'"
 git checkout "$PORTFOLIO_BRANCH"
 
+yarn
+
 echo "✅ Done! Published build #$NEXT to '$GH_PAGES_BRANCH' and returned to '$PORTFOLIO_BRANCH'."
