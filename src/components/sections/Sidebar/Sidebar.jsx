@@ -63,7 +63,7 @@ const Sidebar = () => {
       <div className="text-center">
         <h1 className="text-xl text-gray-800 font-bold mb-1">Ashim Khanal</h1>
         <p className="text-sm text-gray-400 mb-3">
-          Frontend Web Developer at
+            Ph.D. Student at University of South Florida
           <a href="#0" className="text-purple-600 pl-1">
             Abc Company
           </a>
