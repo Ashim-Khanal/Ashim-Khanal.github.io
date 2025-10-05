@@ -60,12 +60,12 @@ const Sidebar = () => {
       <div className="w-24 h-24 rounded-md overflow-hidden mx-auto mb-5">
         <img src={profile} alt="shafiqhammad" className="w-full" />
       </div>
-      <div className="text-center">
+      <div className="text-left">
         <h1 className="text-xl text-gray-800 font-bold mb-1">Ashim Khanal</h1>
         <p className="text-sm text-gray-400 mb-3">
-            Ph.D. Student at University of South Florida
+            Ph.D. Candidate at Department of Industrial and Management Systems Engineering
           <a href="#0" className="text-purple-600 pl-1">
-            Abc Company
+            University of South Florida, Tampa, FL
           </a>
         </p>
         <a
