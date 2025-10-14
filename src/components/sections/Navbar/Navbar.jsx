@@ -10,7 +10,7 @@ import Blog from "../../pages/Blog/Blog";
 import Contact from "../../pages/Contact/Contact";
 import Portfolio from "../../pages/Portfolio/Portfolio";
 import Service from "../../pages/Service/Service";
-
+import Research from "../../pages/Research/Research"
 const navbarData = [
   {
     id: 1,
@@ -19,21 +19,36 @@ const navbarData = [
   },
   {
     id: 2,
-    title: "Services",
+    title: "Publications",
     to: "/services",
   },
-  {
+      {
     id: 3,
-    title: "Works",
-    to: "/works",
+    title: "Research",
+    to: "/researches",
   },
   {
     id: 4,
-    title: "Blogs",
-    to: "/blogs",
+    title: "Professional Activities",
+    to: "/works",
+  },
+    {
+    id: 5,
+    title: "Talks",
+    to: "/talks",
   },
   {
-    id: 5,
+    id: 6,
+    title: "Teaching",
+    to: "/blogs",
+  },
+    {
+    id: 7,
+    title: "Codes",
+    to: "/codes",
+  },
+  {
+    id: 8,
     title: "Contact",
     to: "/contact",
   },
@@ -56,6 +71,9 @@ const Navbar = () => {
         </Route>
         <Route path="/services">
           <Service />
+        </Route>
+        <Route path="/researches">
+          <Research />
         </Route>
         <Route path="/works">
           <Portfolio />
@@ -82,8 +100,8 @@ const LinkItem = (props) => {
     <li className="m-3 lg:mx-5">
       <NavLink
         to={to}
-        activeClassName="text-purple-600"
-        className="text-gray-800 text-medium hover:text-purple-600"
+        activeClassName="text-blue-600"
+        className="text-gray-800 text-medium hover:text-blue-600"
       >
         {title}
       </NavLink>

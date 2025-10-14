@@ -1,38 +1,38 @@
 import React from "react";
-import image1 from "../../../images/blog/blog-01.jpg";
-import image2 from "../../../images/blog/blog-02.jpg";
-import image3 from "../../../images/blog/blog-03.jpg";
-import image4 from "../../../images/blog/blog-04.jpg";
+import image1 from "../../../images/blog/blog-01.png";
+import image2 from "../../../images/blog/blog-02.png";
+import image3 from "../../../images/blog/blog-03.png";
+import image4 from "../../../images/blog/blog-04.png";
 import BlogItem from "./BlogItem";
 
 const blogData = [
   {
     id: 1,
     image: image1,
-    title: "20 Best Prototyping and Design Tools for Product Design",
+    title: "Engineering Economic Analysis and Portfolio Optimization",
     description:
-      "Prototyping Tool Prototyping is a process that enables faster creativity and effective experimentation for the product team.",
+      "Taught Time Value of Money, Buy vs Lease Decisions, Investment Decision based on Costs and Return on Investment, Portfolio Optimization for Risk Averse Investments",
   },
   {
     id: 2,
     image: image2,
-    title: "15+ Top Sources to Download Free Stock Photos",
+    title: "Python for Data Science",
     description:
-      "Wanna decorate your blog with photos? But don't have any photographic skills or fees to pay for photos?",
+      "Core Modules taught includes Python Programming: Basics to Object oriented, Pandas, Numpy, Sci-kit learn, Seaborn, Classification, Regression, Tree based Models, Neural Network Basics ",
   },
   {
     id: 3,
     image: image3,
-    title: "15+ Free Startup Landing Page and Web Templates",
+    title: "Optimization Methods with Applications",
     description:
-      "A landing page is a page designed to turn visitors into leads. It is separate from other pages on your...",
+      "Linear Programming, Network Optimization, Integer Programming, Goal Programming, Supply Chain and Logistics Application",
   },
   {
     id: 4,
     image: image4,
-    title: "10+ Sources to Download Free SVG Illustrations",
+    title: "Material Science and Metallurgy",
     description:
-      "There is no doubt about the importance of Scalable Vector Graphics illustration today.",
+      "Materials, their properties, mining and treatment processes and applications to various engineering designs, and its impact on environment sustainability.",
   },
 ];
 

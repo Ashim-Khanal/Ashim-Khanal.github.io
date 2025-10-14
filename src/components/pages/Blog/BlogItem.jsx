@@ -5,7 +5,7 @@ const BlogItem = (props) => {
   return (
     <div className="w-full lg:w-1/2">
       <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-white group hover:shadow-md">
-        <div className="relative mb-6 w-full h-56 bg-purple-200 rounded-md overflow-hidden">
+        <div className="relative mb-6 w-full h-56 bg-blue-200 rounded-md overflow-hidden">
           <img
             src={image}
             alt="blogImage"
@@ -15,7 +15,7 @@ const BlogItem = (props) => {
         <h3>
           <a
             href="#0"
-            className="block text-lg font-medium text-gray-800 hover:text-purple-600 mb-2"
+            className="block text-lg font-medium text-gray-800 hover:text-blue-600 mb-2"
           >
             {title}
           </a>

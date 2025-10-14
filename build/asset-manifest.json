@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.a4bed106.css",
-    "main.js": "./static/js/main.515f057d.js",
+    "main.css": "./static/css/main.5b27800b.css",
+    "main.js": "./static/js/main.71ff1713.js",
     "static/js/453.6264690d.chunk.js": "./static/js/453.6264690d.chunk.js",
     "static/media/profile.jpg": "./static/media/profile.80275df3015c2b59d09d.jpg",
-    "static/media/project-01.jpg": "./static/media/project-01.4480352255e83f9a0b1a.jpg",
-    "static/media/project-02.jpg": "./static/media/project-02.41f1e411214f96e01bcd.jpg",
-    "static/media/project-04.jpg": "./static/media/project-04.edea224f60e507b26788.jpg",
-    "static/media/project-03.jpg": "./static/media/project-03.a0e68c4b67940736f18b.jpg",
-    "static/media/blog-04.jpg": "./static/media/blog-04.344e72ef7dc7830b22da.jpg",
+    "static/media/blog-03.png": "./static/media/blog-03.eb79bc28f445b84e4ef8.png",
+    "static/media/blog-02.png": "./static/media/blog-02.5cb98bf924559df29cf2.png",
+    "static/media/blog-04.png": "./static/media/blog-04.34b0771465cd1eaaa135.png",
+    "static/media/INFORMS 2025.png": "./static/media/INFORMS 2025.a046d43c506b6a748b87.png",
+    "static/media/blog-01.png": "./static/media/blog-01.c641e09cde4ec29ca2a9.png",
+    "static/media/Tethys GeoScience.png": "./static/media/Tethys GeoScience.c4085c90b69ac9f785d3.png",
+    "static/media/Discrete Optimization.png": "./static/media/Discrete Optimization.f28ffc1267bb1ec4f70c.png",
     "static/media/cover-image.jpg": "./static/media/cover-image.344e72ef7dc7830b22da.jpg",
-    "static/media/blog-03.jpg": "./static/media/blog-03.e1ff56f6a16c7d85468e.jpg",
-    "static/media/blog-01.jpg": "./static/media/blog-01.be96ed556cb13351f49e.jpg",
-    "static/media/blog-02.jpg": "./static/media/blog-02.f2f63464a567d371e56b.jpg",
+    "static/media/USF IMSE.png": "./static/media/USF IMSE.fba07217456275ef7a9a.png",
     "index.html": "./index.html",
-    "main.a4bed106.css.map": "./static/css/main.a4bed106.css.map",
-    "main.515f057d.js.map": "./static/js/main.515f057d.js.map",
+    "main.5b27800b.css.map": "./static/css/main.5b27800b.css.map",
+    "main.71ff1713.js.map": "./static/js/main.71ff1713.js.map",
     "453.6264690d.chunk.js.map": "./static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4bed106.css",
-    "static/js/main.515f057d.js"
+    "static/css/main.5b27800b.css",
+    "static/js/main.71ff1713.js"
   ]
 }

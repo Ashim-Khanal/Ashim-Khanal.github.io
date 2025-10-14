@@ -6,51 +6,53 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
+  FaMailchimp,
+  FaSchool,
   FaSkype,
   FaTwitter,
 } from "react-icons/fa";
 import profile from "../../../images/profile.jpg";
 
 const socials = [
-  {
-    id: 1,
-    icon: <FaFacebookF />,
-    link: "#0",
-  },
+  // {
+  //   id: 1,
+  //   icon: <FaFacebookF />,
+  //   link: "#0",
+  // },
   {
     id: 2,
     icon: <FaGithub />,
-    link: "#0",
+    link: "https://github.com/Ashim-Khanal",
   },
   {
     id: 3,
     icon: <FaLinkedinIn />,
-    link: "#0",
+    link: "https://www.linkedin.com/in/ashim-khanal-phd/",
   },
-  {
-    id: 4,
-    icon: <FaInstagram />,
-    link: "#0",
-  },
-  {
-    id: 5,
-    icon: <FaBehance />,
-    link: "#0",
-  },
+  // {
+  //   id: 4,
+  //   icon: <FaInstagram />,
+  //   link: "#0",
+  // },
+  // {
+  //   id: 5,
+  //   icon: <FaBehance />,
+  //   link: "#0",
+  // },
   {
     id: 6,
-    icon: <FaDribbble />,
-    link: "#0",
+    icon: <FaSchool />,
+    link: "https://scholar.google.com/citations?user=CHADDxgAAAAJ&hl=en&oi=ao",
   },
   {
     id: 7,
-    icon: <FaSkype />,
-    link: "#0",
+    icon: <FaMailchimp />,
+    link: "mailto: ashimkhanal@usf.edu",
   },
   {
     id: 7,
     icon: <FaTwitter />,
-    link: "#0",
+    link: "https://x.com/509d51f021e944f",
   },
 ];
 
@@ -64,16 +66,16 @@ const Sidebar = () => {
         <h1 className="text-xl text-gray-800 font-bold mb-1">Ashim Khanal</h1>
         <p className="text-sm text-gray-400 mb-3">
             Ph.D. Candidate at Department of Industrial and Management Systems Engineering
-          <a href="#0" className="text-purple-600 pl-1">
+          <a href="#0" className="text-blue-600 pl-1">
             University of South Florida, Tampa, FL
           </a>
         </p>
         <a
           href="#0"
-          className="inline-block mb-3 rounded bg-purple-600 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-purple-800"
+          className="inline-block mb-3 rounded bg-blue-600 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-blue-800"
           download="Resume"
         >
-          Download Resume
+          Download CV
         </a>
         <ul className="flex flex-wrap justify-center">
           {socials.map((social, id) => (
@@ -83,13 +85,29 @@ const Sidebar = () => {
       </div>
       <div className="text-start pt-4">
         <h3 className="text-md mb-2 uppercase font-medium text-gray-800">
-          About Me
+          Research Interests
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+
+Sustainable Supply Chain & Circular Economy,
+
+Environmental, Social, and Governance (ESG) & Sustainable Decision-Making,
+
+Real-Time Decision-Making in Robotic Warehousing,
+
+Equity and Fairness-Based Large-Scale Logistics Network Optimization,
+
+Applied AI for Production and Operations Management,
+
+Waste Management System and Envrionment Sustainability,
+
+Multi-Objective Optimization, Optimization Under Uncertainty
+Decision Making with Deep Reinforcement Learning and Attention based Networks
+
+
+
+
+
         </p>
       </div>
     </aside>
@@ -104,7 +122,9 @@ const SocialIcon = (props) => {
     <li className="m-2">
       <a
         href={link}
-        className="w-8 h-8 bg-purple-100 rounded text-purple-800 flex items-center justify-center hover:text-white hover:bg-purple-600"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-8 h-8 bg-blue-100 rounded text-blue-800 flex items-center justify-center hover:text-white hover:bg-blue-600"
       >
         {icon}
       </a>

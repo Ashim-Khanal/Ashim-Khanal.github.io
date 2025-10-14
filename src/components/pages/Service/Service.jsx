@@ -2,50 +2,66 @@ import React from "react";
 import { FaBootstrap, FaCode, FaHtml5, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import ServiceItem from "./ServiceItem";
+import { IoNewspaperSharp } from "react-icons/io5";
+import { TbSum } from "react-icons/tb";
+import { IoIosWater } from "react-icons/io";
+import { GiWaterRecycling } from "react-icons/gi";
 
 const serviceData = [
   {
     id: 1,
-    icon: <FaCode />,
-    title: "Web Design",
+    icon: <TbSum />,
+    title: "Maximum Multiplicative Program, Discrete Optimization",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "A criterion space search feasibility pump heuristic for solving maximum multiplicative programs",
+    href: "https://doi.org/10.1016/j.disopt.2025.100903"
   },
   {
     id: 2,
-    icon: <FaHtml5 />,
-    title: "Web Development",
+    icon: <IoIosWater />,
+    title: "AquaNutriOpt V1, Environmental Modelling & Software",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "AquaNutriOpt: Optimizing nutrients for controlling harmful algal blooms in Python—A case study of Lake Okeechobee",
+      href: "https://doi.org/10.1016/j.envsoft.2024.106025"
   },
   {
     id: 3,
-    icon: <FaReact />,
-    title: "Frontend Development",
+    icon: < GiWaterRecycling/>,
+    title: "AquaNutriOpt V2, Environmental Modelling & Software",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "AquaNutriOpt II: A multi-period bi-objective nutrient optimization python tool for controlling harmful algal blooms — A case study of Lake Okeechobee",
+      href: "https://doi.org/10.1016/j.envsoft.2025.106428"
   },
   {
     id: 4,
     icon: <FaBootstrap />,
-    title: "Bootstrap Template",
+    title: "Effects of Best Management Practices in Nutrient Load Reduction, Ecological Engineering",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "Effects of the spatial distribution of best management practices for watershed wide nutrient load reduction",
+      href: "https://doi.org/10.1016/j.ecoleng.2024.107211"
   },
   {
     id: 4,
     icon: <SiTailwindcss />,
-    title: "Tailwindcss Template",
+    title: "Submitted Paper, 2025",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "An Integrated Web Tool for Nutrient Optimization and Watershed Model Selection in Harmful Algal Bloom Mitigation",
+      href: "https://www.researchgate.net/publication/396316420_An_Integrated_Web_Tool_for_Nutrient_Optimization_and_Watershed_Model_Selection_in_Harmful_Algal_Bloom_Mitigation"
   },
   {
     id: 4,
     icon: <FaReact />,
-    title: "React Template",
+    title: "Working Paper I",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "Smart Adaptive Bender's Decomposition Based Method to Efficeintly Solve Large Scale  Stochastic Multi-Objective Network Optimization ",
   },
+  {
+    id: 5,
+    icon: <FaReact />,
+    title: "Working Paper II",
+    description:
+      "Deep Reinforcemnt Learning and Attention Based Network Framework for Real Time Decision Making in Robot Based Order Fulfillment and Picker Routing Problem in Automated Warehouses",
+  }
 ];
 
 const Service = () => {

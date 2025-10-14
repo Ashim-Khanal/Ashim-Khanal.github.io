@@ -4,37 +4,37 @@ import SkillItem from "./SkillItem";
 const skillData = [
   {
     id: 1,
-    title: "Html, Css, Scss",
+    title: "Multi-Objective Optimization",
     percentage: "95%",
   },
   {
     id: 2,
-    title: "Bootstrap",
+    title: "Network Design, Modeling and Optimization",
     percentage: "98%",
   },
   {
     id: 3,
-    title: "TailwindCSS",
+    title: "Integer Programming",
     percentage: "90%",
   },
   {
     id: 4,
-    title: "Javascript",
+    title: "Convex Optimization",
     percentage: "70%",
   },
   {
     id: 5,
-    title: "ReactJS",
+    title: "Optimization Under Uncertainty",
     percentage: "70%",
   },
   {
     id: 6,
-    title: "ExpressJS",
+    title: "Applied Deep Reinforcement Learning and Attention Based Networks",
     percentage: "60%",
   },
   {
     id: 7,
-    title: "MongoDB",
+    title: "Advanced Data Analytics and Machine Learning",
     percentage: "50%",
   },
   {
@@ -42,6 +42,11 @@ const skillData = [
     title: "Git, Github",
     percentage: "80%",
   },
+  {
+  id: 9,
+    title: "PulP, Gurobi, CPLEX, Python, C++, Pyomo, Ipopt",
+    percentage: "80%",
+  }
 ];
 
 const Skills = () => {
