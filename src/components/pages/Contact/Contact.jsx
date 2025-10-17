@@ -14,7 +14,7 @@ const Contact = () => {
         "service_xwsmucb",     // from EmailJS dashboard
         "template_mza8jnn",    // from EmailJS dashboard
         form.current,
-        "S6YrKjY3MGHinj20S"      // from EmailJS account
+        "S6YrKjY3MGHinj20S"      // from EmailJS account 
       )
       .then(
         () => {
