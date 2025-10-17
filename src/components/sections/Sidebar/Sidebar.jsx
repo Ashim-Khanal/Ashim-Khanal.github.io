@@ -65,15 +65,16 @@ const Sidebar = () => {
       <div className="text-left">
         <h1 className="text-xl text-gray-800 font-bold mb-1">Ashim Khanal</h1>
         <p className="text-sm text-gray-400 mb-3">
-            Ph.D. Candidate at Department of Industrial and Management Systems Engineering
+          Ph.D. Candidate at Department of Industrial and Management Systems Engineering
           <a href="#0" className="text-blue-600 pl-1">
             University of South Florida, Tampa, FL
           </a>
         </p>
         <a
-          href="#0"
+          href="/CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block mb-3 rounded bg-blue-600 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-blue-800"
-          download="Resume"
         >
           Download CV
         </a>
@@ -89,20 +90,20 @@ const Sidebar = () => {
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
 
-Sustainable Supply Chain & Circular Economy,
+          Sustainable Supply Chain & Circular Economy,
 
-Environmental, Social, and Governance (ESG) & Sustainable Decision-Making,
+          Environmental, Social, and Governance (ESG) & Sustainable Decision-Making,
 
-Real-Time Decision-Making in Robotic Warehousing,
+          Real-Time Decision-Making in Robotic Warehousing,
 
-Equity and Fairness-Based Large-Scale Logistics Network Optimization,
+          Equity and Fairness-Based Large-Scale Logistics Network Optimization,
 
-Applied AI for Production and Operations Management,
+          Applied AI for Production and Operations Management,
 
-Waste Management System and Envrionment Sustainability,
+          Waste Management System and Envrionment Sustainability,
 
-Multi-Objective Optimization, Optimization Under Uncertainty
-Decision Making with Deep Reinforcement Learning and Attention based Networks
+          Multi-Objective Optimization, Optimization Under Uncertainty
+          Decision Making with Deep Reinforcement Learning and Attention based Networks
 
 
 
