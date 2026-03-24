@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.f2538e17.css",
-    "main.js": "./static/js/main.a618ec70.js",
+    "main.css": "./static/css/main.dcde5837.css",
+    "main.js": "./static/js/main.c2ed4888.js",
     "static/js/453.6264690d.chunk.js": "./static/js/453.6264690d.chunk.js",
+    "static/media/teaching photo.png": "./static/media/teaching photo.1d2125c994818774c602.png",
     "static/media/profile.jpg": "./static/media/profile.80275df3015c2b59d09d.jpg",
     "static/media/blog-03.png": "./static/media/blog-03.eb79bc28f445b84e4ef8.png",
     "static/media/blog-02.png": "./static/media/blog-02.5cb98bf924559df29cf2.png",
@@ -14,12 +15,12 @@
     "static/media/USF IMSE.png": "./static/media/USF IMSE.fba07217456275ef7a9a.png",
     "static/media/Cover.png": "./static/media/Cover.dea0cf49dda85ba04ae1.png",
     "index.html": "./index.html",
-    "main.f2538e17.css.map": "./static/css/main.f2538e17.css.map",
-    "main.a618ec70.js.map": "./static/js/main.a618ec70.js.map",
+    "main.dcde5837.css.map": "./static/css/main.dcde5837.css.map",
+    "main.c2ed4888.js.map": "./static/js/main.c2ed4888.js.map",
     "453.6264690d.chunk.js.map": "./static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2538e17.css",
-    "static/js/main.a618ec70.js"
+    "static/css/main.dcde5837.css",
+    "static/js/main.c2ed4888.js"
   ]
 }

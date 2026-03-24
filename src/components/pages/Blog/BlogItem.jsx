@@ -1,7 +1,7 @@
 import React from "react";
 
 const BlogItem = (props) => {
-  const { image, title, description } = props.blog;
+  const { image, title, description, link } = props.blog;
   return (
     <div className="w-full lg:w-1/2">
       <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-white group hover:shadow-md">
@@ -14,7 +14,10 @@ const BlogItem = (props) => {
         </div>
         <h3>
           <a
-            href="#0"
+            // href="#0"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="block text-lg font-medium text-gray-800 hover:text-blue-600 mb-2"
           >
             {title}

@@ -41,7 +41,7 @@ const navbarData = [
   },
   {
     id: 6,
-    title: "Teaching",
+    title: "Teaching Portfolio",
     to: "/blogs",
   },
     {
