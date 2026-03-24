@@ -9,10 +9,11 @@ const codeData = [
   {
     id: 1,
     image: image1,
-    title: "Engineering Economic Analysis and Portfolio Optimization",
+    title: "AquaNutriOpt v2.0: An Open-Source Decision Support System for Nutrient Management to Control Harmful Algal Blooms",
     description:
-      "Taught Time Value of Money, Buy vs Lease Decisions, Investment Decision based on Costs and Return on Investment, Portfolio Optimization for Risk Averse Investments",
-  },
+      "AquaNutriOpt II is an open-source Python tool for optimizing nutrient management to control harmful algal blooms. It uses advanced multi-period and multi-objective optimization to identify the most cost-effective locations for implementing best management practices and treatment technologies. The web-based Graphical User Interface is developed in collaboration with Aquaveo, making the complex tool user-friendly for water resource managers.",
+    url: "https://github.com/Ashim-Khanal/AquaNutriOpt-II"
+    },
   {
     id: 2,
     image: image2,

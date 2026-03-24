@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5b27800b.css",
-    "main.js": "./static/js/main.4ed723db.js",
+    "main.css": "./static/css/main.f2538e17.css",
+    "main.js": "./static/js/main.a618ec70.js",
     "static/js/453.6264690d.chunk.js": "./static/js/453.6264690d.chunk.js",
     "static/media/profile.jpg": "./static/media/profile.80275df3015c2b59d09d.jpg",
     "static/media/blog-03.png": "./static/media/blog-03.eb79bc28f445b84e4ef8.png",
@@ -11,15 +11,15 @@
     "static/media/blog-01.png": "./static/media/blog-01.c641e09cde4ec29ca2a9.png",
     "static/media/Tethys GeoScience.png": "./static/media/Tethys GeoScience.c4085c90b69ac9f785d3.png",
     "static/media/Discrete Optimization.png": "./static/media/Discrete Optimization.f28ffc1267bb1ec4f70c.png",
-    "static/media/cover-image.jpg": "./static/media/cover-image.344e72ef7dc7830b22da.jpg",
     "static/media/USF IMSE.png": "./static/media/USF IMSE.fba07217456275ef7a9a.png",
+    "static/media/Cover.png": "./static/media/Cover.dea0cf49dda85ba04ae1.png",
     "index.html": "./index.html",
-    "main.5b27800b.css.map": "./static/css/main.5b27800b.css.map",
-    "main.4ed723db.js.map": "./static/js/main.4ed723db.js.map",
+    "main.f2538e17.css.map": "./static/css/main.f2538e17.css.map",
+    "main.a618ec70.js.map": "./static/js/main.a618ec70.js.map",
     "453.6264690d.chunk.js.map": "./static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b27800b.css",
-    "static/js/main.4ed723db.js"
+    "static/css/main.f2538e17.css",
+    "static/js/main.a618ec70.js"
   ]
 }

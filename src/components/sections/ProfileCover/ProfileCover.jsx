@@ -1,9 +1,9 @@
 import React from "react";
-import cover from "../../../images/cover-image.jpg";
+import cover from "../../../images/Cover.png";
 
 const ProfileCover = () => {
   return (
-    <div className="h-60 w-full">
+    <div className="h-full w-full">
       <img
         src={cover}
         alt="cover"
